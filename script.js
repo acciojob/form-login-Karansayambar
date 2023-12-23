@@ -1,7 +1,7 @@
 function getFormvalue() {
-	const = firstname = document.getElementById("fname");
-	const = lastname = document.getElementById("lname")
-
-	alert(`${firstname} and ${lastname}`);
+	const firstname = document.getElementById("fname").value;
+	const lastname = document.getElementById("lname").value;
+	
+	alert(`${firstname} ${lastname}`);
 	return false;
 }
